@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form Demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form  action="process.php" method="post">
+            <p>My Registration Form</p>
+            <label for="first_name">First Name:</label>&nbsp;&nbsp;
+            <input type="text" id="first_name" name="first_name">
+            <br>
+            <br>
+
+            <label for="last_name">Last Name: </label>&nbsp;
+            <input type="text" id="last_name" name="last_name">
+            <br>
+            <br>
+
+            <label for="email">Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="email" name="email">
+            <br>
+            <br>
+
+            <label for="password">Passwaord  </label>&nbsp;&nbsp;&nbsp;
+            <input type="password" id="password" name="password">
+            <br>
+            <br>
+
+            <label for="password_confirm">PW Confirm </label>
+            <input type="password" id="password_confirm" name="password_confirm">
+            <br>
+            <br>
+
+            <label for="birthday">Birthday  </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" id="birthday" name="birthday">
+            <i class="fa fa-calendar"></i>
+                    
+            <br>
+            <br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" >
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" >
+
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other" >
+
+            <p>A short description about yourself:</p>
+            <textarea rows="4" cols="28"></textarea>
+            <br>
+            <br>
+
+            <label>Favorite Language: </label>
+            <select>
+                    <option value="Javascript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="Swift">Swift</option>
+            </select>
+            <br>
+            <br>
+
+            <input type="submit"  name ="submit" value="Sumbit">
+
+
+        </form>
+    </body>
+</html>
